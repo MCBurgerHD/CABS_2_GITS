@@ -1,0 +1,12 @@
+In den Downloadordner wechseln und alle .pdf Dateien anzeigen lassen
+
+
+
+
+
+PS C:\Windows\system32> cd..
+PS C:\Windows> cd..
+PS C:\> cd .\Users
+PS C:\Users> cd .\maxer
+PS C:\Users\maxer> cd .\Downloads
+Get-ChildItem *.pdf
